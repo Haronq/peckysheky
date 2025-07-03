@@ -1,4 +1,13 @@
 .poo {color:blue;}
 .lvl:hover{transform: translate(1000px, 1000px);
   transition-duration:2s;}
-
+@keyframes ok{
+  0% {color: blue;}
+  25%{color:white}
+  50%{color: purple;}
+  75%{color:yellow}
+  100% {color: green;}
+}
+.idk {animation-name:ok;
+      animation-duration: 2s;
+        animation-iteration-count: infinite;}
