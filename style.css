@@ -1,3 +1,4 @@
 .poo {color:blue;}
-.yes:hover{transform: scale(4.4, 3.4);
+.lvl:hover{transform: scale(4.4, 3.4);
   transition-duration:0.2s;}
+.hide: {transform: translate 40px, 40px};
